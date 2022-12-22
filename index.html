@@ -18,12 +18,19 @@
     
     <header>
       <div id="topbar">
-        <button type="button" onclick="ShowAndHide()" id="button">Menu</button>
+        <button type="button" onclick="ShowAndHide()" id="button">
+          Menu
+        </button>
+
+        <button onclick="history.back()" type="button" class="button" id="back">
+          <img src="../Resources/Images/arrow.png" alt="Back arrow" width="30">
+        </button>
+        
       </div><!--ends id topbar-->
       
       <nav id="menu" style="display: none">
         <li>
-          <a href="#guides">Survival Guides</a>
+          <a href="#guides" class="menuList">Survival Guides</a>
         </li>
         
       </nav><!--ends id menu-->
@@ -36,18 +43,16 @@
   
       <div id="guides">
         <h4 class="heading">Minecraft Survival Guides</h4>
-        <ul id="suvivalGuides" class="list">
-          <li>
-            <a href="Pages/firstNight.html">How to Survive Your First Night</a>
-          </li>
-          
-          <li>
-            <a href="Pages/iron.html">How to Make an Iron Mine</a>
-          </li>
-          <li>
-            <a href="Pages/diamond.html">How to Make a Diamond Mine</a>
-          </li>
-        </ul><!--ends id survialGuides-->
+        
+        <li>
+          <a href="Pages/firstNight.html" class="link">How to Survive Your First Night</a>
+        </li>
+        <li>
+          <a href="Pages/iron.html" class="link">How to Make an Iron Mine</a>
+        </li>
+        <li>
+          <a href="Pages/diamond.html" class="link">How to Make a Diamond Mine</a>
+        </li>
       </div><!--ends id guides-->
   
       <div id="mobs">
@@ -58,3 +63,4 @@
   </body>
 
 </html>
+<!--#36651D-->

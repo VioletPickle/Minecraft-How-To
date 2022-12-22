@@ -1,27 +1,70 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: #5c2d10;
 }
 
 #topbar{
-  background-color: green;
+  background-color: #1a611a;
   height:30px;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1;
+  border: none;
 }
   #button{
-    border: none;
-    background-color: green;
-  }  
-  nav{
-    width:10%;
+    background-color: #008000;
     position:absolute;
-  }
-
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    padding: 3px;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #4DA429;
+  }  
+  #back{
+    background-color: #1a611a;
+    position:fixed;
+    top: -3px;
+    left: 55px;
+    padding-bottom: -10px;
+  height: 30px;
+  border:none;
+}
+nav{
+  width:10%;
+  position:fixed;
+  background-color: #FFFFFF;
+  top:30px;
+  left:0;
+  right:0;
+  z-index:1;
+  overflow: clip;
+}
+nav a{
+  padding: 5px;
+  color: #00b300;
+}
 #body{
   width: 80%;
   margin-left: 10%;
   position:absolute;
 }
-  #title{
-    text-align: center;
-    border: 1px black solid;
-  }
+#title{
+  text-align: center;
+  border: 1px black solid;
+}
+.link{
+  color: #00b300;
+  padding: 0.75px;
+}
+H1, H2, H3, H4, H5, H6{
+  color: #1a611a;
+}
+a:link, a:visited{
+  color: #0a240a;
+}
