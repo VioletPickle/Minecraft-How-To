@@ -7,11 +7,13 @@
     
     <title>Minecraft Diamond Mine Guide</title>
   
-    <link href="../Resources/Stylesheets/diamond.css" rel="stylesheet" type="text/css" />
+    <link href="../Resources/Stylesheets/pagestyle.css" rel="stylesheet" type="text/css"/>
     
     <link rel="icon" href="../Resources/Images/favicon.ico" type="image/x-icon">
   
     <script src="../Resources/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -19,11 +21,13 @@
       
       <div id="topbar">
         
-        <button type="button" onclick="ShowAndHide()" id="button">Menu</button>
+        <button type="button" onclick="ShowAndHide()" id="button">
+          Menu
+        </button>
 
         <p>
-          <a href="../index.html" >
-            <img src="../Resources/Images/arrow.png" alt="Back to main page." width="20"height=40>
+          <a href="../index.html" id="back">
+            <img src="../Resources/Images/arrow.png" alt="Back to main page." width="30">
           </a>
         </p>
         
@@ -46,30 +50,30 @@
     </header>
 
     <div id="body">
-      <h1 class="heading" id="title">Minecraft</h1>
+      <h1 id="title">Minecraft</h1>
 
       <h3>How to Make a Diamond Mine</h3>
 
-      <img src="../Resources/Images/diamond.png">
-      <div id="one" class="step">
+      <img src="../Resources/Images/diamond.png" class="ore" alt="Diamond">
+      <div id="one">
         <h4>Step 1:</h4>
         
-        <p>Start mining stairs downwards. If you already have a mine, start from there. Dig down to Y level -58, and then stop. <span id="bold"> Note: </span><span id="italic">Y level is the middle coordinate.</span></p>
+        <p>Start mining stairs downwards. If you already have a mine, start from there. Dig down to Y level -58, and then stop. <span class="bold"> Note: </span><span class="italic">Y level is the middle coordinate.</span></p>
       </div><!--ends id one-->
 
-      <div id="two" class="step">
+      <div id="two">
         <h4>Step 2:</h4>
   
         <p>Mine a two wide hallway to the left of your stairs, and stop after around twenty-five blocks. Go back to your stairs.</p>
       </div><!--ends id two-->
 
-      <div id="three" class="step">
+      <div id="three">
         <h4>Step 3:</h4>
   
         <p>Mine a tunnel for a while straight away from your stairs. Make it fairly long. When you decide to finish it, mine another two wide hallway to the left for at least six blocks.</p>
       </div><!--ends id three-->
 
-      <div id="four" class="step">
+      <div id="four">
         <h4>Step 4:</h4>
   
         <p>Go back to your one wide tunnel and count three blocks down your two wide hallway. Start mining. There should be two blocks between the two tunnels. Keep mining your tunnel until you get back to the other end. Continue mining tunnels two blocks apart until you have all the diamonds you want. You can always come back later and get more.</p>
@@ -81,7 +85,7 @@
 </html>
 
 <!--
-      <div id="" class="step">
+      <div id="">
         <h4>Step :</h4>
   
         <p></p>
