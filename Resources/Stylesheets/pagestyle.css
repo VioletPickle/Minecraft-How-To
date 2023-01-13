@@ -19,7 +19,7 @@ body {
   #button{
     background-color: #008000;
     position:absolute;
-    top: 5px;
+    top:5px;
     left: 5px;
     text-align: center;
     padding: 3px;
@@ -32,7 +32,6 @@ body {
     position:fixed;
     top: -3px;
     left: 55px;
-    padding-bottom: 0px;
     height: 30px;
     border:none;
   }
@@ -46,9 +45,13 @@ body {
     z-index:1;
     overflow: clip;
   }
-  nav a{
-    padding: 5px;
+  a{
+    padding: 5px 0 5px 0;
     color: #00b300;
+  }
+  nav p{
+    font-size: x-small;
+    padding-left:5px;
   }
 
 #body{
@@ -59,14 +62,16 @@ body {
   #title{
     text-align: center;
     border: 1px black solid;
-    margin-top: 30px;
+    margin-top: 35px;
+    padding: 1px 0 1px 0;
   }
   H1, H2, H3, H4, H5, H6{
     color: #1a611a;
     text-shadow: -1px -1px 0 #212121,
     1px -1px 0 #212121,
     -1px 1px 0 #212121,
-    1px 1px 0 #212121; 
+    1px 1px 0 #212121;
+    padding: 10px 0 5px 0;
   }
   H1{
     font-size: 3rem;
@@ -86,22 +91,18 @@ body {
   H6{
     font-size: 1rem;
   }
-  p, li{
+  p, a{
     font-size: .9rem;
   }
   a:visited{
-    color: #0a240a;
-    text-shadow:
-    -1px -1px 0 #212121,
-    1px -1px 0 #212121,
-    -1px 1px 0 #212121,
-    1px 1px 0 #212121;  
+    color: #0a240a; 
   }
   #thanks{
     font-size: 12px;
     color: #008000;
     text-align: center;
     margin-top: 30px;
+    padding-bottom: 10px;
   }
   .bold{
     font-weight: bold;

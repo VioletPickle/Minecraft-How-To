@@ -30,7 +30,7 @@ body {
   #back{
     background-color: #1a611a;
     position:fixed;
-    top: -3px;
+    top: 0px;
     left: 55px;
     padding-bottom: -10px;
     height: 30px;
@@ -44,13 +44,16 @@ body {
     left:0;
     right:0;
     z-index:1;
-    overflow: clip;
+    overflow: hidden;
   }
-  nav a{
-    padding: 5px;
+  a{
+    padding: 5px 0 5px 0;
     color: #00b300;
   }
-
+  nav a{
+    font-size: x-small;
+    
+  }
 #body{
   width: 80%;
   margin-left: 10%;
@@ -59,7 +62,8 @@ body {
   #title{
     text-align: center;
     border: 1px black solid;
-    margin-top: 30px;
+    margin-top: 35px;
+    padding: 1px 0 1px 0;
   }
   H1, H2, H3, H4, H5, H6{
     color: #1a611a;
@@ -68,6 +72,7 @@ body {
     1px -1px 0 #212121,
     -1px 1px 0 #212121,
     1px 1px 0 #212121; 
+    padding: 10px 0 5px 0;
   }
   H1{
     font-size: 3rem;
@@ -87,14 +92,9 @@ body {
   H6{
     font-size: 1rem;
   }
-  p, li{
+  p, a{
     font-size: .9rem;
   }
   a:visited{
-    color: #0a240a;
-    text-shadow: 
-    -1px -1px 0 #212121,
-    1px -1px 0 #212121,
-    -1px 1px 0 #212121,
-    1px 1px 0 #212121; 
+    color: #0a240a; 
   }
