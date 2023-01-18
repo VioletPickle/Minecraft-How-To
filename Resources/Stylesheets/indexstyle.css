@@ -52,7 +52,6 @@ body {
   }
   nav a{
     font-size: x-small;
-    
   }
 #body{
   width: 80%;
@@ -97,4 +96,10 @@ body {
   }
   a:visited{
     color: #0a240a; 
+  }
+  a:hover{
+    color: #037c03;
+  }
+  a:active{
+    color:#0a3c0a;
   }
