@@ -37,7 +37,7 @@ body {
     border:none;
   }
   nav{
-    width:10%;
+    width:9%;
     position:fixed;
     background-color: #FFFFFF;
     top:30px;
@@ -45,24 +45,26 @@ body {
     right:0;
     z-index:1;
     overflow: hidden;
+    line-height: 1;
   }
   a{
     padding: 5px 0 5px 0;
     color: #00b300;
+    line-height: 1.5;
   }
   nav a{
     font-size: x-small;
   }
 #body{
   width: 80%;
-  margin-left: 10%;
+  margin-left: 11%;
   position:absolute;
 }
   #title{
     text-align: center;
     border: 1px black solid;
     margin-top: 35px;
-    padding: 1px 0 1px 0;
+    padding: 5px 0;
   }
   H1, H2, H3, H4, H5, H6{
     color: #1a611a;
@@ -71,7 +73,6 @@ body {
     1px -1px 0 #212121,
     -1px 1px 0 #212121,
     1px 1px 0 #212121; 
-    padding: 10px 0 5px 0;
   }
   H1{
     font-size: 3rem;
@@ -84,6 +85,7 @@ body {
   }
   H4{
     font-size: 1.5rem;
+    margin: 10px 0;
   }
   H5{
     font-size: 1.25rem;

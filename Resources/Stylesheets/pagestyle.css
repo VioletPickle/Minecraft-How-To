@@ -36,7 +36,7 @@ body {
     border:none;
   }
   nav{
-    width:10%;
+    width:9%;
     position:fixed;
     background-color: #FFFFFF;
     top:30px;
@@ -44,6 +44,7 @@ body {
     right:0;
     z-index:1;
     overflow: clip;
+    line-height: 1.15;
   }
   a{
     padding: 5px 0 5px 0;
@@ -59,7 +60,7 @@ body {
 
 #body{
   width: 80%;
-  margin-left: 10%;
+  margin-left: 11%;
   position:absolute;
 }
   #title{
@@ -101,11 +102,9 @@ body {
     color: #0a240a; 
   }
   #thanks{
-    font-size: 12px;
-    color: #008000;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 30px;
-    padding-bottom: 10px;
+    margin: 30px 0;
   }
   .bold{
     font-weight: bold;
